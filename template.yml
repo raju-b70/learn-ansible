@@ -1,5 +1,5 @@
 - name: demo in template
-  hosts: local hosts
+  hosts: localhosts
   tasks:
     - name: example.conf
       ansible.builtin.conf:
