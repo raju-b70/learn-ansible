@@ -11,3 +11,8 @@
       ansible.builtin.debug:
         msg: fruits
       tags: fruits
+
+    - name: fruits
+      ansible.builtin.debug:
+        msg: fruits
+      tags: fruits
