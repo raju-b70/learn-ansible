@@ -12,5 +12,21 @@
       vars:
         URL_TASK: tasks.example.com
 
+    - name: demo
+      ansible.builtin.shell: uptime
+      register: output
+
+    - name: output of previous task with only output of shell command
+      ansible.builtin.debug:
+      msg: "{{ output.stdout }}"
+
+  roles:
+    - demo
+
+
+
+
+
+
   roles:
     - demo
