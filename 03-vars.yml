@@ -20,13 +20,3 @@
       ansible.builtin.debug:
       msg: "{{ output.stdout }}"
 
-  roles:
-    - demo
-
-
-
-
-
-
-  roles:
-    - demo
